@@ -3,4 +3,8 @@ from django.http import HttpResponse
 
 
 def home(request):
-    return HttpResponse("Home")
+    return render(request, 'impactgenerator/home.html', context={})
+
+
+def upload(request):
+    return render(request, 'impactgenerator/upload.html', context={})
