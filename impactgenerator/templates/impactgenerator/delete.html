@@ -1,0 +1,27 @@
+{% extends 'impactgenerator/main.html' %}
+{% load static %}
+
+
+{% block content %}
+
+<br>
+<div class="container">
+<div class="row">
+    <div class="col-md">
+        <h4>Delete Confirmation</h4>
+        <hr>
+        <div class="card card-body">
+            <form action="" method="POST">
+                {% csrf_token %}
+                <h4>Are you sure to delete the document[{{ document.name }}]?</h4><br>
+                <input type="submit" class="btn btn-danger" value="YES">
+                <input type="reset" class="btn btn-primary" value="CANCEL">
+            </form>
+        </div>
+    </div>
+</div>
+</div>
+{% endblock content %}
+
+
+    

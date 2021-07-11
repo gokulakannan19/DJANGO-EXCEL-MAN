@@ -1,25 +1,55 @@
-{% extends 'impactgenerator/main.html' %}
 
+{% extends 'impactgenerator/main.html' %}
+{% load static %}
 
 {% block content %}
 <br>
-    <h1>Home</h1>
-    <br>
-    <h3>Upload Document</h3>
-    <form method="POST", enctype="multipart/form-data">
-        {% csrf_token %}
-        {{ form.as_p }}
-        <!-- <input type="text" name="name">
-        <input type="file" name="document"> -->
-        <button type="submit">Upload Document</button>
-    </form>
-
-    
-    {% for document in documents %}
-        <h3>document.name</h3>
-        <a href="{% url 'create_impact' document.id %}">generate impact doc</a>
-    {% endfor %}
-        
+    <div class="row">
+        <div class="col-md">
+            <div class="card card-body">
+                <h3 style="text-align: center;" id="banner">Impact Analysis Document Generator</h3>
+            </div>
+        </div>
+    </div>
+<br><br>
+    <div class="row">
+        <div class="col-md-6">
+            <h5>Upload Document</h5>
+            <hr>
+            <div class="card card-body">
+                <form method="POST", enctype="multipart/form-data">
+                    {% csrf_token %}
+                    {{ form.as_p }}
+                    <!-- <input type="text" name="name">
+                    <input type="file" name="document"> -->
+                    <button class="btn btn-primary" type="submit">Upload Document</button>
+                </form>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <h5>Uploaded Documents</h5>
+            <hr>
+            <div class="card card-body">
+                
+                <table class="table table-sm">
+                    
+                <tr>
+                    <th>File Name</th>
+                    <th>Generate Document</th>
+                    <th>Delete</th>
+                </tr>
+                
+                {% for document in documents %}
+                <tr>
+                    <th>{{ document.name }}</th>
+                    <th><a href="{% url 'create_impact' document.id %}" class="btn btn-warning btn-sm">Generate Impact Document</a></th>
+                    <th><a href="{% url 'delete_document' document.id %}" class="btn btn-danger btn-sm">Delete</a></th>
+                </tr>
+                {% endfor %}
+                </table>
+            </div>
+        </div>
+    </div>
     
 {% endblock content %}
 
