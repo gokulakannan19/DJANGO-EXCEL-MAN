@@ -8,11 +8,18 @@
     <h3>Upload Document</h3>
     <form method="POST", enctype="multipart/form-data">
         {% csrf_token %}
-        <!-- {{ form.as_p }} -->
-        <input type="text" name="name">
-        <input type="file" name="document">
+        {{ form.as_p }}
+        <!-- <input type="text" name="name">
+        <input type="file" name="document"> -->
         <button type="submit">Upload Document</button>
     </form>
+
+    
+    {% for document in documents %}
+        <h3>document.name</h3>
+        <a href="{% url 'create_impact' document.id %}">generate impact doc</a>
+    {% endfor %}
+        
     
 {% endblock content %}
 
