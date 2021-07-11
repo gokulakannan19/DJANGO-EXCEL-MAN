@@ -8,7 +8,9 @@
     <h3>Upload Document</h3>
     <form method="POST", enctype="multipart/form-data">
         {% csrf_token %}
-        {{ form.as_p }}
+        <!-- {{ form.as_p }} -->
+        <input type="text" name="name">
+        <input type="file" name="document">
         <button type="submit">Upload Document</button>
     </form>
     
