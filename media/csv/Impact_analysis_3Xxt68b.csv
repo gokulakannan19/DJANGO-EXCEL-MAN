@@ -1,0 +1,241 @@
+#,Status,Subject,Details Defect Category,Description
+2345764,Closed,Server side check failed,server side,"URL: 123
+Path: 123123->3434->45444
+Overview: Path is updated wrongly in bug description
+
+Steps to reproduce:
+1. Navigate to screen
+2. Click the button, list screen gets opened
+3. Click the add button, add detail screen gets opened
+4. Check the URL
+
+Actual result:
+Url is not valid
+Unwanted param is passed
+
+Expected result:
+Url should be valid
+Unwanted param should not be passed
+
+Ref:Consolidate - Case 110
+Note: Kindly refer video"
+2345764,Closed,gk,messages,"URL: 123
+Path: 123123->3434->45444
+Overview: Path is updated wrongly in bug description
+
+Steps to reproduce:
+1. Navigate to screen
+2. Click the button, list screen gets opened
+3. Click the add button, add detail screen gets opened
+4. Check the URL
+
+Actual result:
+Url is not valid
+Unwanted param is passed
+
+Expected result:
+Url should be valid
+Unwanted param should not be passed
+
+Ref:Consolidate - Case 110
+Note: Kindly refer video"
+2345764,New,gokuraja,messages,"URL: 123
+Path: 123123->3434->45444
+Overview: Path is updated wrongly in bug description
+
+Steps to reproduce:
+1. Navigate to screen
+2. Click the button, list screen gets opened
+3. Click the add button, add detail screen gets opened
+4. Check the URL
+
+Actual result:
+Url is not valid
+Unwanted param is passed
+
+Expected result:
+Url should be valid
+Unwanted param should not be passed
+
+Ref:Consolidate - Case 110
+Note: Kindly refer video"
+2345764,Discard,sheet,focus,"URL: 123
+Path: 123123->3434->45444
+Overview: Path is updated wrongly in bug description
+
+Steps to reproduce:
+1. Navigate to screen
+2. Click the button, list screen gets opened
+3. Click the add button, add detail screen gets opened
+4. Check the URL
+
+Actual result:
+Url is not valid
+Unwanted param is passed
+
+Expected result:
+Url should be valid
+Unwanted param should not be passed
+
+Ref:Consolidate - Case 110
+Note: Kindly refer video"
+2345764,Inprogress,error calout missing,focus,"URL: 123
+Path: 123123->3434->45444
+Overview: Path is updated wrongly in bug description
+
+Steps to reproduce:
+1. Navigate to screen
+2. Click the button, list screen gets opened
+3. Click the add button, add detail screen gets opened
+4. Check the URL
+
+Actual result:
+Url is not valid
+Unwanted param is passed
+
+Expected result:
+Url should be valid
+Unwanted param should not be passed
+
+Ref:Consolidate - Case 110
+Note: Kindly refer video"
+2345764,Closed,focus issue,focus,"URL: 123
+Path: 123123->3434->45444
+Overview: Path is updated wrongly in bug description
+
+Steps to reproduce:
+1. Navigate to screen
+2. Click the button, list screen gets opened
+3. Click the add button, add detail screen gets opened
+4. Check the URL
+
+Actual result:
+Url is not valid
+Unwanted param is passed
+
+Expected result:
+Url should be valid
+Unwanted param should not be passed
+
+Ref:Consolidate - Case 110
+Note: Kindly refer video"
+2345764,Closed,message issue,messages,"URL: 123
+Path: 123123->3434->45444
+Overview: Path is updated wrongly in bug description
+
+Steps to reproduce:
+1. Navigate to screen
+2. Click the button, list screen gets opened
+3. Click the add button, add detail screen gets opened
+4. Check the URL
+
+Actual result:
+Url is not valid
+Unwanted param is passed
+
+Expected result:
+Url should be valid
+Unwanted param should not be passed
+
+Ref:Consolidate - Case 110
+Note: Kindly refer video"
+2345764,Closed,tab flow,tab flow,"URL: 123
+Path: 123123->3434->45444
+Overview: Path is updated wrongly in bug description
+
+Steps to reproduce:
+1. Navigate to screen
+2. Click the button, list screen gets opened
+3. Click the add button, add detail screen gets opened
+4. Check the URL
+
+Actual result:
+Url is not valid
+Unwanted param is passed
+
+Expected result:
+Url should be valid
+Unwanted param should not be passed
+
+Ref:Consolidate - Case 110
+Note: Kindly refer video"
+2345764,Dicard,error calout missing,error handling,"URL: 123
+Path: 123123->3434->45444
+Overview: Path is updated wrongly in bug description
+
+Steps to reproduce:
+1. Navigate to screen
+2. Click the button, list screen gets opened
+3. Click the add button, add detail screen gets opened
+4. Check the URL
+
+Actual result:
+Url is not valid
+Unwanted param is passed
+
+Expected result:
+Url should be valid
+Unwanted param should not be passed
+
+Ref:Consolidate - Case 110
+Note: Kindly refer video"
+2345764,Reopened,focus issue,focus,"URL: 123
+Path: 123123->3434->45444
+Overview: Path is updated wrongly in bug description
+
+Steps to reproduce:
+1. Navigate to screen
+2. Click the button, list screen gets opened
+3. Click the add button, add detail screen gets opened
+4. Check the URL
+
+Actual result:
+Url is not valid
+Unwanted param is passed
+
+Expected result:
+Url should be valid
+Unwanted param should not be passed
+
+Ref:Consolidate - Case 110
+Note: Kindly refer video"
+2345764,New,message issue,messages,"URL: 123
+Path: 123123->3434->45444
+Overview: Path is updated wrongly in bug description
+
+Steps to reproduce:
+1. Navigate to screen
+2. Click the button, list screen gets opened
+3. Click the add button, add detail screen gets opened
+4. Check the URL
+
+Actual result:
+Url is not valid
+Unwanted param is passed
+
+Expected result:
+Url should be valid
+Unwanted param should not be passed
+
+Ref:Consolidate - Case 110
+Note: Kindly refer video"
+2345764,Closed,tab flow,tab flow,"URL: 123
+Path: 123123->3434->45444
+Overview: Path is updated wrongly in bug description
+
+Steps to reproduce:
+1. Navigate to screen
+2. Click the button, list screen gets opened
+3. Click the add button, add detail screen gets opened
+4. Check the URL
+
+Actual result:
+Url is not valid
+Unwanted param is passed
+
+Expected result:
+Url should be valid
+Unwanted param should not be passed
+
+Ref:Consolidate - Case 110
+Note: Kindly refer video"
