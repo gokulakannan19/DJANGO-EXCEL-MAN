@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-&mt8d9^w1jg5fehppokyra$saqq(wrm*+81i^9ci#2er(x&tdz'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['impact-generator.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
